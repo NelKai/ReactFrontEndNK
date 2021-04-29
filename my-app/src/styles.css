@@ -1,0 +1,17 @@
+a {
+    color:black;
+    padding: 10px;
+    font-size: large;
+}
+
+.tabbable {
+    padding: 15px;
+}
+
+p {
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}

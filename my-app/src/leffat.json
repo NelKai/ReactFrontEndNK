@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "nimi":"Avatar",
+        "ohjaaja":"James Cameron",
+        "jvuosi":"2009",
+        "genre":"Scifi/Seikkailu"
+    },
+    {
+        "id":"2",
+        "nimi":"Knives Out",
+        "ohjaaja":"Rian Johnson",
+        "jvuosi":"2019",
+        "genre":"Mysteeri/Komedia"
+    },
+    {
+        "id":"3",
+        "nimi":"Inferno",
+        "ohjaaja":"Ron Howard",
+        "jvuosi":"2016",
+        "genre":"Mysteeri/Jännitys"
+    },
+    {
+        "id":"4",
+        "nimi":"Tenet",
+        "ohjaaja":"Christopher Nolan",
+        "jvuosi":"2020",
+        "genre":"Toiminta/Trilleri"
+    },
+    {
+        "id":"5",
+        "nimi":"Little Women",
+        "ohjaaja":"Greta Gerwig",
+        "jvuosi":"2019",
+        "genre":"Romantiikka/Draama"
+    },
+    {
+        "id":"6",
+        "nimi":"Soul",
+        "ohjaaja":"Pete Docter",
+        "jvuosi":"2020",
+        "genre":"Perhe/Seikkailu"
+    }
+]
