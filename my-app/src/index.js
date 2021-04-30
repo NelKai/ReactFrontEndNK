@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './styles.css';
 import leffat from './leffat.json';
 
+// Luodaan komponentti, joka esittää JSON-tiedostossa olevat elokuvat taulukossa
 const LeffaArray = (props) => {
   const {data} = props;
 
@@ -34,7 +35,8 @@ const LeffaArray = (props) => {
  )
 };
 
-class EtusivuKo extends React.Component {
+// Komponentti, joka sisältää etusivun sisällön
+class Etusivu extends React.Component {
   render() {
     return (
       <div class="tabbable">
@@ -47,7 +49,7 @@ class EtusivuKo extends React.Component {
             <p>Tämä sivu tulostaa elokuvia ruudulle</p>
           </div>
           <div class="tab-pane" id="tab2">
-            <p><LeffaArray data={leffat} /></p>
+            <p><LeffaArray data={leffat} /></p> 
           </div>
         </div>
       </div>
@@ -55,4 +57,4 @@ class EtusivuKo extends React.Component {
   }
 }
 
-ReactDOM.render(<EtusivuKo />, document.getElementById('etusivu'));
+ReactDOM.render(<Etusivu />, document.getElementById('etusivu')); // Tuodaan Etusivu-komponentti ruudulle
